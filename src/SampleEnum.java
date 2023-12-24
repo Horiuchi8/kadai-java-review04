@@ -2,21 +2,21 @@
 public class SampleEnum {
 
         public static enum Gender{
-            MALE,
-            FEMALE
+            男,
+            女
         }
 
     public static void main(String[] args) {
 
-        Gender gender0 = Gender.MALE;
-        Gender gender1 = Gender.FEMALE;
+        Gender gender1 = Gender.男;
+        Gender gender2 = Gender.女;
 
 
-        System.out.println(gender0);
         System.out.println(gender1);
+        System.out.println(gender2);
 
-        System.out.println(gender0.ordinal());
         System.out.println(gender1.ordinal());
+        System.out.println(gender2.ordinal());
 
     }
 }

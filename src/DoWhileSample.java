@@ -1,0 +1,16 @@
+
+public class DoWhileSample {
+
+    public static void main(String[] args) {
+        System.out.println("それでは計算を始めていきます");
+        int num = 1;
+
+        do {
+            num = num * 2;
+
+
+            System.out.println(num);
+        }while(num < 1024 );
+    }
+
+}

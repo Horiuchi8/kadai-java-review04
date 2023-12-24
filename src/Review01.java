@@ -3,7 +3,7 @@ public class Review01 {
 
     public static void main(String[] args) {
         //商品価格の表示
-        int commodity_price = 2000;
+        int commodity_price = 1950;
         //税率の表示
         double tax_rate = 0.1;
         //税額の表示。計算はtaxメソッドで行う。
